@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 6%;
+}
+.Btns{
+    text-align: center;
+}
+#carousel{
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+}
+#carousel img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: none;
+}
+#carousel img.active{
+    display: block;
+}
